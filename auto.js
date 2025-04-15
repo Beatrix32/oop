@@ -1,7 +1,7 @@
 import { Car } from './js/Car.js';
 
 const volvo = new Car('Volvo S40', 'red', 55);
-const zapas = new Car('Zapas', 'white', 35);
+const minicooper = new Car('minicooper', 'teal', 35, 8);
 console.log(volvo.intro());
 console.log(minicooper.intro());
 
@@ -12,4 +12,4 @@ console.log(minicooper.refill('pazadais uzpilti'));
 console.log(minicooper.refill(NaN));
 console.log(minicooper.refill(Infinity));
 console.log(minicooper);
-console.log(minicooper.countFuel(307));
+console.log(minicooper.countFuel(289));
