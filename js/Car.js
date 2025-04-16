@@ -48,4 +48,4 @@ export class Car {
         const needFuel = this.countFuel(km);
         if (needFuel <= this.tank);
         }
-    } 
+    }

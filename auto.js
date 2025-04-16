@@ -1,15 +1,15 @@
 import { Car } from './js/Car.js';
 
 const volvo = new Car('Volvo S40', 'red', 55);
-const minicooper = new Car('minicooper', 'teal', 35, 8);
+const Minicooper = new Car('Minicooper', 'teal', 35, 8);
 console.log(volvo.intro());
-console.log(minicooper.intro());
+console.log(Minicooper.intro());
 
-console.log(minicooper.refill(-5));
-console.log(minicooper.refill(4.2));
-console.log(minicooper.refill(null));
-console.log(minicooper.refill('pazadais uzpilti'));
-console.log(minicooper.refill(NaN));
-console.log(minicooper.refill(Infinity));
-console.log(minicooper);
-console.log(minicooper.countFuel(289));
+console.log(Minicooper.refill(-5));
+console.log(Minicooper.refill(4.2));
+console.log(Minicooper.refill(null));
+console.log(Minicooper.refill('pazadais uzpilti'));
+console.log(Minicooper.refill(NaN));
+console.log(Minicooper.refill(Infinity));
+console.log(Minicooper)
+console.log(Minicooper.countFuel(289));
