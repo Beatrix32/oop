@@ -4,6 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "trainer": "node --watch ./trainer.js",
     "animals": "node --watch ./animals.js",
     "car": "node --watch ./js/Car.js",
     "auto": "node --watch ./auto.js",
